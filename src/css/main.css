@@ -1,0 +1,50 @@
+@import url(../css/layout/header.css);
+@import url(../css/layout/slidebar.css);
+@import url(../css/layout/page.css);
+@import url(../css/base/button.css);
+@import url(../css/base/table.css);
+@import url(../css/layout/table__paging.css);
+@import url(../css/layout/dialog.css);
+body{
+    margin: 0;
+}
+*{
+    
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    
+    grid-template-columns: 66px auto;
+    grid-template-rows: 44px auto;
+}
+.text-align--right{
+    text-align: right;
+}
+.text-align--left{
+    text-align: left;
+}
+.text-align--center{
+    text-align: center;
+}
+.input--error,.field-error{
+    border-color: #ff0000 !important ;
+}
+.input--error+.error--text{
+    display: block;
+    color: #ff0000;
+    
+}
+
+
+
+
+

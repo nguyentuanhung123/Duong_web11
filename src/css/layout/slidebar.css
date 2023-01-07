@@ -1,0 +1,182 @@
+.slidebar{
+    background-color: #1c3048;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, .16);
+    
+    
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+}
+.navbar__header{
+    
+    width: 100%;
+    height: 50px;
+    background: url('../icon/qlts-icon.svg') ;	
+    background-repeat: no-repeat;  
+    background-position: -5px -669px;   
+    
+}
+.navbar__content{
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: #1c3048;
+    
+
+}
+.navbar__content--item{
+    
+    background-color: #1c3048;
+    padding: 15px 11px 0 11px;
+}
+.item1{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #1c3048;
+    background-position: -10px -143px;   
+}
+.item1:hover{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    background-color: #1aa4c8;
+    background-position:-11px -189px;   
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.item2{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #1c3048;
+    background-position: -54px -144px; 
+      
+}
+.item2:hover{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    background-color: #1aa4c8;
+    background-position:-54px -188px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.item2--active{
+    background-color: #1aa4c8;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.item3{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 44px;
+    height: 40px;
+    background-color: #1c3048;
+    background-position: -142px -144px;   
+}
+.item3:hover{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    background-color: #1aa4c8;
+    background-position:-142px -188px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.item4{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #1c3048;
+    background-position: -186px -146px;   
+}
+.item4:hover{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    background-color: #1aa4c8;
+    background-position:-187px -191px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.item5{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #1c3048;
+    background-position: -230px -144px;   
+}
+.item5:hover{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    
+    background-color: #1aa4c8;
+    background-position:-230px -189px;   
+    border-radius: 6px;
+    overflow: hidden;
+}
+.item6{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #1c3048;
+    background-position: -99px -144px;   
+}
+.item6:hover{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    background-color: #1aa4c8;
+    background-position:-99px -188px;   
+    border-radius: 6px;
+    overflow: hidden;
+}
+.item7{
+    
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #1c3048;
+    background-position: -318px -144px;  
+}
+.item7:hover{
+    background-image: url('../icon/qlts-icon.svg');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 40px;
+    background-color: #1aa4c8;
+    background-position: -319px -189px;  
+    border-radius: 6px;
+    overflow: hidden;
+}

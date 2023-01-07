@@ -1,0 +1,32 @@
+.popup__warning{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.185);
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.wrapper__warning{
+    
+    background-color: #fff;
+    padding: 20px 16px;
+    width: 25%;
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+}
+.content__warning{
+    display: flex;
+    width: 100%;
+}
+.footer__warning{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}

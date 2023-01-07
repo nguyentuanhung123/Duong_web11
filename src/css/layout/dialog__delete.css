@@ -1,0 +1,42 @@
+.dialog__delete{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.185);
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.wrapper__delete{
+    background-color: #fff;
+    padding: 20px 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    width: 25%;
+    height: 15%;
+    box-sizing: border-box;
+}
+.content__delete{
+    display: flex;
+    width: 100%;
+}
+.footer__delete{
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.btnsave2{
+    order: 2;
+    
+}
+.btn-cancel{
+    order: 1;
+    
+}

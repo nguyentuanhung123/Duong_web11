@@ -1,0 +1,21 @@
+.icon__show{
+    background: url('/src/css/icon/qlts-icon.svg');
+    background-position: -416px -66px;
+    background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+}
+.icon__showSucces{
+    background: url('/src/css/icon/qlts-icon.svg');
+    background-position: -111px -594px;
+    background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+}
+.icon__showWarning{
+    background: url('/src/css/icon/qlts-icon.svg');
+    background-position: -67px -594px;
+    background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+}

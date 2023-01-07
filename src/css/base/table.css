@@ -1,0 +1,38 @@
+
+.table{
+    height: 100%;
+    width: 100%;
+}
+.table__container{
+    background-color: aqua;
+    width: 100%;
+    overflow-y: auto;
+    height: calc(100% - 40px);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 1px solid #afafaf;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .16);
+    border-radius: 3.5px;
+    height: 100%;
+   
+}
+thead{
+    
+    background-color: #f5f5f5;
+}
+tr{
+    border-bottom: 1px solid #afafaf;
+    height: 38px;
+}
+td,th{
+    padding: 0 10px;
+}
+th{
+    background-color: #f5f5f5;
+    position: sticky;
+    top: 0;
+}
+
